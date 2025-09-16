@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
-class pattern3 {
+class pattern4{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("enter the number");
+        System.out.print("enter the number:");
         int n = sc.nextInt();
-        int p=1; 
+        int p=65; 
         for (int i = 1; i <= n; i++) {  
                  
             for (int j = 1; j <= i; j++) {    
-                System.out.print(p); 
+                System.out.print((char)p); 
                        
             }
 
@@ -19,36 +19,41 @@ class pattern3 {
     }
 }
 
-
 // output
-// 1
-// 22
-// 333
-// 4444
-// 55555
+
+// A
+// BB
+// CCC
+// DDDD
+// EEEEE
+
 
 import java.util.Scanner;
 
-class pattern3 {
+class pattern4{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("enter the number");
+        System.out.print("enter the number:");
         int n = sc.nextInt();
         
         for (int i = 1; i <= n; i++) {  
-            int p=1; 
+                 int p=65; 
             for (int j = 1; j <= i; j++) {    
-                System.out.print(p); 
-                p++;        
+                System.out.print((char)p); 
+                     p++;  
             }
-            System.out.println();                      
+
+            System.out.println();  
+                       
         }
     }
 }
 
+
 // output
-// 1
-// 12
-// 123
-// 1234
-// 12345
+
+// A
+// AB
+// ABC
+// ABCD
+// ABCDE
