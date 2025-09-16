@@ -9,7 +9,7 @@ class pattern2{
     }
 }
 
-//output
+// output
 
 // *
 // **
