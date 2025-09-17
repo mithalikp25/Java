@@ -23,5 +23,3 @@ class pattern7 {
 // CDE
 // BCDE
 // ABCDE
-
-
