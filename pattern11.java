@@ -33,3 +33,12 @@ public class pattern11{
 }
 
 
+// output
+// enter the number:7
+//      *
+//     ***
+//    *****
+//   *******
+//    *****
+//     ***
+//      *
