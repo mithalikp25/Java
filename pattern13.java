@@ -34,9 +34,8 @@ class pattern13 {
         System.out.print("enter the rows: ");
         int n = sc.nextInt();
 
-        for (int r = 1; r <= n; r++) {   // increasing loop, no rows--
+        for (int r = 1; r <= n; r++) {   
             for (int c = 1; c <= 2*n-1; c++) {
-                // 🔄 modified condition: stars shrink outward
                 if (c <= r || c >= (2*n - r)) {
                     System.out.print("*");
                 } else {
