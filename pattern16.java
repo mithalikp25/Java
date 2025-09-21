@@ -5,13 +5,11 @@ class pattern16{
         Scanner sc= new Scanner(System.in);
         System.out.print("enter the no.of rows");
         int n=sc.nextInt();
-    
-        for(int r =1;r<=n;r++){
-           
+        for(int r =1;r<=n;r++){       
             int sum=0;
             for(int c=1;c<=r;c++){
                 System.out.print(c);
-                if(c<r){
+                if(c!=r){ //or if(c<r)
                 System.out.print("+");
                 }       
                 sum=sum+c;
