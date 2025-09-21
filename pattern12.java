@@ -12,7 +12,7 @@ public class pattern12{
                     System.out.print(" ");
                 }
                 for(int c=1;c<=2*n-2*i+1;c++){
-                    System.out.print(m);
+                    System.out.print(m); 
                 }
                 m--;
     System.out.println();
