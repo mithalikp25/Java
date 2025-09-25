@@ -2,7 +2,7 @@
 
 public class conditions {
     public static void main(String[] args) {
-        int marks = 72;
+        int marks = 60;
 
         if (marks >= 90) {
             System.out.println("Grade: A"); // For marks 90 and above
