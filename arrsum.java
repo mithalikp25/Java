@@ -12,11 +12,22 @@ class arrsum {
         for(int i=0;i<arr.length;i++){
             arr[i]=sc.nextInt();
         }
-        System.out.println("the array elements are:");
+        System.out.print("the array elements are:");
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
             sum=sum+arr[i];
         }
-        System.out.print("the sum is"+ sum);
+        System.out.println("the sum is:"+ sum);
     }
 }
+
+
+// output:
+// Enter the size of the array:5
+// enter the elements:
+// 1
+// 2
+// 3
+// 4
+// 5
+// the array elements are:1 2 3 4 5 the sum is:15
