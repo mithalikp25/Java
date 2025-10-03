@@ -1,15 +1,32 @@
-import java.util.Scanner;
-
-class dummy {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int arr[]=new int[3];
-        for(int i=0;i<arr.length;i++){
-            arr[0]=10;
-            arr[1]=20;
-            arr[2]=30;
-            System.out.println(arr[3]);
+public class dummy {
+    public static void main(String args[]) {
+      int [] arr={1,2,3,4,5,6};
+      
+      int sum_even=0;
+      int sum_odd=0;
+      
+    //   for(int i=0;i<arr.length;i++){
+    //       if(arr[i]%2==0){
+    //         //   sum_even=sum_even+arr[i] 
+    //           sum_even+=arr[i];
+    //       }
+    //   }
+      
+    //   for(int i=0;i<arr.length;i++){
+    //       if(arr[i]%2!=0){
+    //         //   sum_odd=sum_odd+arr[i] 
+    //           sum_odd+=arr[i];
+    //       }
+    //   }
+    
+    for(int i=0;i<arr.length;i++){
+        if(arr[i]%2==0){
+            sum_even+=arr[i];
+        }else if(arr[i]%2!=0){
+            sum_odd+=arr[i];
         }
-        
+    }
+      System.out.println(sum_even);
+      System.out.println(sum_odd);
     }
 }
