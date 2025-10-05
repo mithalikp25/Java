@@ -12,3 +12,9 @@ public class SumPair2 {
         System.out.println("the sum of all the pairs in the two arrays is: "+sum);
     }
 }
+
+
+// basically this code is to find the sum of all the pairs in the two arrays
+
+// output:
+// the sum of all the pairs in the two arrays is: 63
