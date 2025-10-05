@@ -11,6 +11,7 @@ public class SumPair {
             }
         }
         System.out.println("the sum of all the pairs in the array is: "+sum);
+        
         for(int i=0;i<arr2.length;i++){
             for(int j=i+1;j<arr2.length;j++){
                 sum2+=arr2[i]+arr2[j];
