@@ -15,7 +15,7 @@ public class diag {
             for (int j = 0; j < arr[i].length; j++) {
                 arr[i][j] = sc.nextInt();
             }
-            System.out.println(); // optional, keeps spacing in input reading
+            System.out.println(); 
         }
 
         System.out.println("the elements of the array are : ");
@@ -41,7 +41,7 @@ public class diag {
         System.out.print("the right diagonal elements of the array are: ");
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                if (i + j == arr.length - 1) {
+                if (i + j == arr.length - 1) {//if i want to prevent 5 from being printed again then i can use   if (i + j == arr.length - 1 && i != j)
                     System.out.print(arr[i][j] + " ");
                 }
             }
