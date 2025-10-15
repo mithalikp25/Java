@@ -1,25 +1,29 @@
-import java.util.*;
 public class dummy {
     public static void main(String args[]) {
-      Scanner sc=new Scanner(System.in);
-      System.out.print("enter the number of rows: ");
-      int rows=sc.nextInt();
-      System.out.print("enter the number of columns: ");    
-      int cols=sc.nextInt();
+        int [][] arr = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9},
+        };
 
-      int [][] arr= new int[rows][cols];
-      System.out.println("enter the elements of the array: ");
-      for(int i=0;i<arr.length;i++){
-        for(int j=0;j<arr[i].length;j++){
-          arr[i][j]=sc.nextInt();
+        int rows = arr.length;
+        int cols = arr[0].length;
+
+        int [][] transpose = new int[cols][rows]; // reverse dimensions
+
+        // Perform transpose
+        for(int i=0;i<rows;i++){
+            for(int j=0;j<cols;j++){
+                transpose[j][i] = arr[i][j];
+                System.out.print(transpose[j][i] + " ");
+            }
+             System.out.println();
         }
-      }
-System.out.println("the elements of the array are: ");
-      for(int i=0;i<arr.length;i++){
-        for(int j=0;j<arr[i].length;j++){
-         System.out.print(arr[i][j]+"  ");
-        }
-        System.out.println();
-      } 
     }
 }
+
+// Output:
+// Transposed matrix: 
+// 1 4 7 
+// 2 5 8    
+// 3 6 9
