@@ -1,3 +1,16 @@
+// Given an array of integers, calculate the ratios of its elements that are positive,negative and zero
+// Print the decimal value of each fraction on a new line with 6 places after the decimal.
+
+// Note: This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to  are acceptable.
+
+// Example
+//[-4, 3, -9, 0, 4, 1]
+// There are  elements, two positive, three negative and one zero. 
+//The ratios of their values are 2/6, 3/6 and 1/6. Results are printed as:
+// 0.333333
+// 0.500000
+// 0.166667
+
 package hacker_rank;
 
 import java.util.Scanner;
