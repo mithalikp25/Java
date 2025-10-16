@@ -40,3 +40,10 @@ public class hacker5 {
 }
 
 
+// output:
+// 1
+// 2
+// 3
+// 6
+// 2
+// 8 13
