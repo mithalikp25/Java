@@ -11,8 +11,8 @@
 // 1️⃣ s t → Start and end points of Sam’s house
 // 2️⃣ a b → Locations of the apple and orange trees
 // 3️⃣ m n → Number of apples and oranges
-// 4️⃣ Next line → Distances of m apples
-// 5️⃣ Next line → Distances of n oranges
+// 4️⃣ Next line → Distances of m apples in array format
+// 5️⃣ Next line → Distances of n oranges in array format
 
 // Output Format:
 
