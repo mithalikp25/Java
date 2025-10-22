@@ -1,4 +1,5 @@
 // // HackerRank Problem: Breaking the Records
+
 //                                      Count
 //     Game  Score  Minimum  Maximum   Min Max
 //      0      12     12       12       0   0
