@@ -1,3 +1,14 @@
+// Migratory Birds 
+
+// Given an array of bird sightings where each element is a bird type id (1–5), return the id of the most frequently sighted type. If there’s a tie, return the smallest id.
+
+// Input:
+// First line: integer n (number of birds)
+// Second line: n space-separated integers (bird type ids)
+
+// Output:
+// Single integer: most frequent bird type id (smallest if tie)
+
 package hacker_rank;
 
 import java.io.*;
@@ -40,3 +51,8 @@ public class hacker15 {
 System.out.println(ans);
     }
 }
+
+// Output:
+// 5 -> array size
+// 1 3 3 3 2 ->array elements
+// 3 -> id of the bird type with highest frequency
