@@ -4,7 +4,7 @@ package logic_building;
 
 import java.util.*;
 
-public class triangle {
+public class triangle_type {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.println("enter the three sides of the triangle");
