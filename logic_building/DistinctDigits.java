@@ -11,8 +11,12 @@ public class DistinctDigits {
         int n=sc.nextInt();
 
         int first=n/100;
-        int second=(n/10)%10;
+        int second=(n%100)/10;
         int third=n%10;
+
+        // int first = n / 100;
+        // int second = (n / 10) % 10;
+        // int third = n % 10;
 
         if((first!=second) && (second!=third) && (first!=third)){
             System.out.println("all are distinct elements");
