@@ -34,3 +34,12 @@ public class PerfectSquareCheck {
 // Enter a number: 10
 // Not a perfect square.
  
+
+//🧠 Logic Explanation:
+
+// You take the number n.
+// Loop i from 1 to n/2.
+// Because no number greater than n/2 can have its square ≤ n.
+// For every number i, check if i × i == n.
+// If yes → n is a perfect square.
+// Otherwise, after the loop ends, it’s not a perfect square.
