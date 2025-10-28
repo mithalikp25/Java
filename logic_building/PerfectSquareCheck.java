@@ -42,4 +42,5 @@ public class PerfectSquareCheck {
 // Because no number greater than n/2 can have its square ≤ n.
 // For every number i, check if i × i == n.
 // If yes → n is a perfect square.
+
 // Otherwise, after the loop ends, it’s not a perfect square.
