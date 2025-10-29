@@ -1,3 +1,13 @@
+// Designer PDF Viewer
+
+// You are given:
+// An array h[26], where each element represents the height of the letters a–z.
+// A lowercase word.
+
+// Each letter has a width = 1 and its height = h corresponding to that letter.
+// When highlighting the word in a PDF viewer, the area of the highlight =
+// (maximum letter height in the word) × (word length).
+
 package hacker_rank;
 
 import java.util.*;
@@ -21,3 +31,7 @@ public class hacker25 {
     System.out.println(max*str.length());
 }
 }
+
+// output:
+// 1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 7
+// zaba
