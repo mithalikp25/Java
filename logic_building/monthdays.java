@@ -7,7 +7,7 @@ import java.util.*;
 public class monthdays {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter month number (1–12): ");
+        System.out.print("Enter month number (1-12): ");
         int month = sc.nextInt();
 
         if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
@@ -49,5 +49,5 @@ public class monthdays {
 
 // output
 
-// Enter month number (1?12): 12
+// Enter month number (1-12): 12
 // 31 days
