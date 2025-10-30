@@ -10,19 +10,13 @@ public class PerfectSquareCheck {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        boolean isPerfect = false;
         for (int i = 1; i <= n / 2; i++) {
             if (i * i == n) {
-                isPerfect = true;
-                break;
+                System.out.println("Perfect square.");
+                return;//exits as soon as match is found and does not print "Not a perfect square."
             }
         }
-
-        if (isPerfect)
-            System.out.println("Perfect square.");
-        else
-            System.out.println("Not a perfect square.");
-
+        System.out.println("Not a perfect square.");
     }
 }
 
