@@ -10,7 +10,15 @@ public class median {
     System.out.println("enter three numbers");
     int a=sc.nextInt(),b=sc.nextInt(),c=sc.nextInt();
 
-    int median=0;
+    if((b>a&&b<c)||(b<a&&b>c)){
+        System.out.println("the median of three numbers is "+b);
+    }
+    else if((a>b&&a<c)||(a<b&&a>c)){
+        System.out.println("the median of three numbers is "+a);
+    }
+    else{
+        System.out.println("the median of three numbers is "+c);
+    }
     
     }
 }

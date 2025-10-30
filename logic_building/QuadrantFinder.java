@@ -5,7 +5,7 @@ package logic_building;
 import java.util.*;
 
 public class QuadrantFinder {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     System.out.println("enter x coordinate");
     int x=sc.nextInt();
