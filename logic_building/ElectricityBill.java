@@ -18,12 +18,16 @@ public class ElectricityBill {
             bill = units * 1.0; 
         } 
         else if (units <= 200) {
-            bill = 100 * 1.0 + (units - 100) * 2.0; 
+            bill = (100 * 1.0) + (units - 100) * 2.0; 
         } 
         else {
-            bill = 100 * 1.0 + 100 * 2.0 + (units - 200) * 3.0; 
+            bill = (100 * 1.0) + (100 * 2.0) + (units - 200) * 3.0; 
         }
 
         System.out.println("Total electricity bill:" + bill+"rs");
     }
 }
+
+// output:
+// Enter units consumed: 250
+// Total electricity bill:450.0rs
