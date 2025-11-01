@@ -27,6 +27,8 @@ public class sumpro {
         }
     }
 
+//here we've taken a new variable value so that the original input x remains unchanged for any further use if needed.
+
 // output:
 // enter an integer
 // 111  
