@@ -21,3 +21,8 @@ public class fizzBizz {
         }
       }
 }
+
+// Output:
+// enter a number
+// 5
+// buzz
