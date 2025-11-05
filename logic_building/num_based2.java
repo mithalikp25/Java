@@ -11,10 +11,16 @@ public class num_based2  {
         int a=sc.nextInt();
         int count=0;
 
-           while(a!=0)
-           { int rem=a%10;
-            count++;
-            a=a/10;}
+           if (a == 0) {
+            count = 1;  // because 0 has 1 digit
+        }
+        else 
+         {
+            while (a != 0) {
+                a = a / 10;
+                count++;
+            }
+        }
         
         System.out.println("count of digits is: " + count);
     }
@@ -22,7 +28,10 @@ public class num_based2  {
 
 
 // output:
-
 // enter a number
 // 234543
 // count of digits is: 6
+
+// enter a number
+// 1000
+// count of digits is: 4
