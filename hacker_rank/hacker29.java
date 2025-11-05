@@ -11,11 +11,12 @@ public class hacker29 {
     for(int i=0;i<n;i++){
         arr[i]=sc.nextInt();
         }
-    for(int i=0;i<n;i++){
-        int mini=0;
-        int minii=Math.min(arr[i], mini);
+    Arrays.sort(arr);
 
-        arr[i]=arr[i]-minii;
+    for(int i=0;i<n;i++){
+        int mini=arr[0];
+        
+        arr[i]=arr[i]-mini;
         System.out.print(arr[i]+" ");
         }
     
