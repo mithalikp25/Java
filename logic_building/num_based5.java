@@ -2,8 +2,6 @@
 
 package logic_building;
 
-import java.util.*;
-
 public class num_based5 {
     public static void main(String[] args) {
 

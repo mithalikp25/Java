@@ -26,7 +26,6 @@ public class num_based2  {
     }
 }
 
-
 // output:
 // enter a number
 // 234543
@@ -35,3 +34,22 @@ public class num_based2  {
 // enter a number
 // 1000
 // count of digits is: 4
+
+// | Task                      | Operator Needed | Why                          |
+// | ------------------------- | --------------- | ---------------------------- |
+// | Counting digits           | /               | Removes last digit each loop |
+// | Getting last digit        | %               | Extracts it                  |
+// | Doing both (sum, reverse) | % + /           | Work together                |
+
+/*
+Edge Cases:
+1. Input: 0
+   Output: count of digits is: 1
+   → Because 0 has exactly one digit.
+
+2. Input: 0000 or 0111
+   Output: count of digits is: 1  (for 0000)
+           count of digits is: 3  (for 0111)
+   → Java removes leading zeros when using nextInt().
+     To include all typed zeros, read input as String using nextLine() and use input.length().
+*/
