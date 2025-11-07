@@ -21,6 +21,7 @@ public class num_based6 {
             sum+=Math.pow(r, len); // cube (or power) of digit
             temp=temp/10;         // remove last digit
         }
+
         if(sum==n){
             System.out.println(n + " is an Armstrong number");
         }
@@ -30,7 +31,7 @@ public class num_based6 {
     }
 }
 
-// // output:
+// output:
 
 // enter a number: 123
 // 123 is not an Armstrong number
