@@ -13,13 +13,14 @@ public class num_based9 {
         int b=1;
         int sum=0;
 
-        for(int i=0;i<n;i++){
-            System.out.print(a + " ");
-            sum+=a;
-            int c=a+b;
-            a=b;
-            b=c;
-        }
+       for (int i = 1; i <= n; i++) // loop runs n times
+       {  
+            System.out.print(a + " ");  // print current number
+            sum += a;                   // adds current value to sum
+            int c = a + b;              // next term = previous two
+            a = b;                      // shift a to b
+            b = c;                      // shift b to next
+       }
         System.out.println("\nSum of series up to " + n + " terms is: " + sum);
     }
 }
