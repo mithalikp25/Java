@@ -1,4 +1,4 @@
-//Write a program to print Fibonacci series up to n terms.
+//Write a program to print sum of Fibonacci digits up to n terms.
 
 package logic_building;
 
