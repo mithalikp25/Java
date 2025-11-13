@@ -50,6 +50,13 @@ public class hacker30 {
     }
 }
 
+// count = 1;
+
+// This line is critical.
+// Why 1? Because:
+// You’re already looking at one stick of this new length (arr[i] itself).
+// So you’ve already counted one of them — hence you start the new count from 1, not 0.
+
 
 // output:
 // 6
