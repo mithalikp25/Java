@@ -16,7 +16,6 @@ Day Shared Liked Cumulative
 4     12     6      15
 5     18     9      24
 
-
 */
 
 
@@ -32,9 +31,9 @@ public class hacker29 {
     int liked=0;
 
     for(int i=0;i<n;i++){
-        int like_people=Math.floorDiv(people,2);
-        liked+=like_people;
-        people=like_people*3;
+        int total_ppl=Math.floorDiv(people,2);
+        liked+=total_ppl;
+        people=total_ppl*3;
     }
     System.out.println(liked);
      }
