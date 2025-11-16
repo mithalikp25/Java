@@ -35,11 +35,6 @@ public class num_based2  {
 // 1000
 // count of digits is: 4
 
-// | Task                      | Operator Needed | Why                          |
-// | ------------------------- | --------------- | ---------------------------- |
-// | Counting digits           | /               | Removes last digit each loop |
-// | Getting last digit        | %               | Extracts it                  |
-// | Doing both (sum, reverse) | % + /           | Work together                |
 
 /*
 Edge Cases:
@@ -53,3 +48,10 @@ Edge Cases:
    → Java removes leading zeros when using nextInt().
      To include all typed zeros, read input as String using nextLine() and use input.length().
 */
+
+
+// | Task                      | Operator Needed | Why                          |
+// | ------------------------- | --------------- | ---------------------------- |
+// | Counting digits           | /               | Removes last digit each loop |
+// | Getting last digit        | %               | Extracts it                  |
+// | Doing both (sum, reverse) | % + /           | Work together                |
