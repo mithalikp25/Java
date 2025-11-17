@@ -1,3 +1,5 @@
+//Print all numbers between a and b divisible by 7. 
+
 package logic_building;
 
 import java.util.*;
