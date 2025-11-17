@@ -3,12 +3,12 @@
 // 145 →
 // 1! + 4! + 5!
 // = 1 + 24 + 120
-// = 145 ✔ Strong number
+// = 145 Strong number
 
 // 123 →
 // 1! + 2! + 3!
 // = 1 + 2 + 6
-// = 9 ≠ 123 ❌ Not a strong number
+// = 9 ≠ 123 Not a strong number
 
 package logic_building;
 
