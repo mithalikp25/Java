@@ -1,0 +1,31 @@
+//get HCF of two numbers
+
+package logic_building;
+
+import java.util.*;
+
+public class math8 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter first number:");
+        int n=sc.nextInt();
+        System.out.print("enter second number:");
+        int m=sc.nextInt();
+
+        int hcf=0;
+
+        for(int i=1;i<=n;i++){  // Should be i<=n or better i<=Math.min(n,m)
+            if(n%i==0 && m%i==0){
+                hcf=i;
+            }
+        }
+        System.out.print("HCF is:"+hcf);
+    }
+}
+
+
+// Output:
+
+// enter first number:75
+// enter second number:90
+// HCF is:15
