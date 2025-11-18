@@ -20,7 +20,7 @@ public class hacker33 {
         if(n % 2 != 0){ 
             val = arr[n/2];
         } else {
-            val = (arr[n/2 - 1] + arr[n/2]) / 2.0;
+            val = (arr[n/2 - 1] + arr[n/2]) / 2;
         }
 
         System.out.println((int) val);
