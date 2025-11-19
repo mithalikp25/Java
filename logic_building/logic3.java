@@ -10,12 +10,10 @@ public class logic3 {
         for(int i=1;i<=100;i++){
             int num=i;
             int sum=0;
-
-            int rev=0;
+            
             while(num!=0){
                 int rem=num%10;
                 sum+=rem;
-                rev=rev*10+rem;
                 num=num/10;
             }
             if(sum%2==0){
