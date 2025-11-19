@@ -1,4 +1,4 @@
-//Print all numbers that are palindromes between 1–500. 
+//Print all numbers that are palindromes between 1–500 
 
 package logic_building;
 
