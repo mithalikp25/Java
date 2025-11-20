@@ -13,7 +13,9 @@ import java.util.*;
 public class hacker34 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();           // Step 1: Read number of elements
+        int n = in.nextInt();           
+        
+        // Step 1: Read number of elements
         ArrayList<Integer> arr = new ArrayList<>();
 
         // Step 2: Read the elements
