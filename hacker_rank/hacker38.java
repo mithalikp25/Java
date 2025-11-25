@@ -1,5 +1,8 @@
 //Libary Fine
 
+
+// ****Compare YEAR → then MONTH → then DAY****
+
 // A library charges a fine for returning a book late.
 
 // You are given:
