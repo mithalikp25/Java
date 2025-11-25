@@ -1,4 +1,13 @@
 //get HCF of two numbers
+// HCF (Highest Common Factor)
+// The largest number that divides two or more numbers without leaving a remainder.
+// Example: HCF of 20 and 30
+// Factors:
+// 20 → 1, 2, 4, 5, 10, 20
+// 30 → 1, 2, 3, 5, 6, 10, 15, 30
+// Common factors → 1, 2, 5, 10
+// So, HCF = 10
+
 
 package logic_building;
 

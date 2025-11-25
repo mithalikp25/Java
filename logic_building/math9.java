@@ -1,6 +1,5 @@
 //find HCF of two numbers(efficient way)
 
-
 // Direction              Iterations                      Why
 // Forward (1→n)          Always checks ALL numbers       Finds answer but keeps going
 // Backward (n→1)         Stops as soon as HCF is found   First match IS the largest
