@@ -9,6 +9,17 @@
 // Perfect squares in this range: 4, 9, 16
 // Answer = 3
 
+// A = 3
+// B = 9
+// We want to check numbers between 3 and 9, like:
+// 3, 4, 5, 6, 7, 8, 9
+
+// And find which of them are perfect squares:
+
+// 4 → 2×2  
+// 9 → 3×3
+// So answer = 2.
+
 
 package hacker_rank;
 
