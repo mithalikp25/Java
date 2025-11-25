@@ -12,11 +12,7 @@ Example:
 2, 5, 8, 11, 14...
 Here, d = 5 - 2 = 3
 
-Formulas:
-1. nth term:
-   Tn = a + (n - 1) * d
-
-2. To print AP in Java:
+To print AP in Java:
    - Start from first term 'a'
    - Keep adding 'd' to get next term
    - Repeat for 'n' terms
