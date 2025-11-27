@@ -13,6 +13,9 @@ public class ref {
         System.out.print("The average of entered numbers is:" + avr(num1, num2, num3) );
     }
 
+
+    //Java has methods, not functions.
+    //avr is a new method that we have created
 public static double avr(double a, double b, double c)
     {
         return (a + b + c) / 3;
