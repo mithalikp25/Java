@@ -1,5 +1,4 @@
-//Libary Fine
-
+//Library Fine
 
 // ****Compare YEAR → then MONTH → then DAY****
 
@@ -66,6 +65,7 @@ public class hacker38 {
     else {
         fine = 0;
     }
+        sc.close();
         System.out.println(fine);
     }
 }
