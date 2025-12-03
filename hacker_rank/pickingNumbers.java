@@ -1,3 +1,12 @@
+//Picking Numbers
+
+// You're given a list of integers.
+// You must find the longest subsequence such that the absolute difference between any two numbers is ≤ 1.
+
+// You are not picking continuous elements.
+
+// You are picking any elements from the array.
+
 package hacker_rank;
 
 import java.util.*;
