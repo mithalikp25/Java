@@ -1,9 +1,7 @@
 //get common factors between two numbers
-
 package logic_building;
 
 import java.util.*;
-
 public class math7 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -19,7 +17,6 @@ public class math7 {
         }
     }
 }
-
 
 // output:  
 

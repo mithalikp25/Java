@@ -8,11 +8,9 @@
 // Common factors → 1, 2, 5, 10
 // So, HCF = 10
 
-
 package logic_building;
 
 import java.util.*;
-
 public class math8 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -31,7 +29,6 @@ public class math8 {
         System.out.print("HCF is:"+hcf);
     }
 }
-
 
 // Output:
 
