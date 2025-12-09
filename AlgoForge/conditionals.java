@@ -20,5 +20,9 @@ public class conditionals {
 
 
 // Output:
+
 // Enter if its raining(true/false):true
 // Take an umbrella
+
+// Enter if its raining(true/false):false
+// No need to take an umbrella
