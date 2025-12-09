@@ -32,7 +32,7 @@ public class hacker4 {
                   pos++;  
                 }
                 else if(arr[i]<0){
-                   neg++;  
+                  neg++;  
                 }
                 else if(arr[i]==0){
                   zer++;
