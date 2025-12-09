@@ -36,6 +36,14 @@ public class loop {
     }
 }
 
+
+// | Loop Type    | When to Use                                        |
+// | ------------ | -------------------------------------------------- |
+// | **for**      | Known number of iterations, compact loop           |
+// | **while**    | Unknown iterations, check before running           |
+// | **do-while** | Unknown iterations, but must run at least once     |
+
+
 // Output:
 
 // FOR LOOP:
